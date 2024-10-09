@@ -12,6 +12,7 @@ header {
 }
 
 body {
+    text-align: center;
     background-color: blanchedalmond;
     background-size: cover;
 }
@@ -20,6 +21,8 @@ body {
     display: grid;
     column-gap: 10px;
     row-gap: 1em;
+    justify-content: center; /* centers items horizontally */
+    align-items: center; /* centers items vertically */
   }
   
 .box1 {
@@ -97,4 +100,10 @@ body {
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 5;
+  }
+
+img {
+
+    margin: 10px 10px 10px 10px;
+    outline: dashed rgb(65, 2, 2);
   }
