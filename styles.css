@@ -103,7 +103,6 @@ body {
   }
 
 img {
-
     margin: 10px 10px 10px 10px;
-    outline: dashed rgb(65, 2, 2);
+    outline: solid rgb(65, 2, 2);
   }
