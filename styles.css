@@ -1,108 +1,146 @@
-.nav-items
 
-.nav-items-a
+nav {
+  margin-bottom: 40px;
+}
+.nav-items {
+  height: 30px;
+  background-color: rgb(79, 68, 72);
+  display: flex;
+  align-items: left;
+  padding: 10px 10px 10px 10px;
+}
 
+.nav-item-a {
+  margin-left: 20px;
+  margin-top: 5px;
+  color: beige;
+}
 
 header {
-    text-align: center;
-    color: rgb(102, 47, 8);
-    font: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  text-align: center;
+  color: rgb(102, 47, 8);
+  font: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    text-align: center;
-    background-color: blanchedalmond;
-    background-size: cover;
+  text-align: center;
+  background-color: blanchedalmond;
+  background-size: cover;
 }
 
 .wrapper {
-    display: grid;
-    column-gap: 10px;
-    row-gap: 1em;
-    justify-content: center; /* centers items horizontally */
-    align-items: center; /* centers items vertically */
-  }
-  
+  display: grid;
+  column-gap: 10px;
+  row-gap: 50px;
+  justify-content: center; /* centers items horizontally */
+  /*align-items: center;  /* centers items vertically */
+}
+
 .box1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  
+  background-color: rgb(127, 43, 9);
+  outline: solid rgb(65, 2, 2);
+  width: 420px;
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
 .box2 {
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
 
 .box3 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+}
 
 .box4 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+}
 
 .box5 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-  }
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  box-sizing: border-box;
+}
 
 .box6 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 4;
-  }
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
 
 .box7 {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 
 .box8 {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 4;
-  }
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
 
 .box9 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: left;
+}
 
 .box10 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: left;
+}
 
 .box11 {
-    grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: right;
+}
 
 img {
-    margin: 10px 10px 10px 10px;
-    outline: solid rgb(65, 2, 2);
-  }
+  outline: solid rgb(65, 2, 2);
+}
+
+h2 {
+  font-family: cursive;
+  color: bisque;
+  padding-top: 26px;
+}
+
+footer {
+  margin-top: 20px; /* Add margin to footer */
+  padding: 10px;
+  color: rgb(65, 2, 2);
+  text-align: center;
+}
+
+a {
+  font-size: 22px;
+}
